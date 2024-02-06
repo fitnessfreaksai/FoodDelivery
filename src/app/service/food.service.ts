@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class FoodService {
-  apiEndPoint:string="https://freeapi.miniprojectideas.com/api/zomato/";
+  apiEndPoint:string="https://freeapi.gerasim.in/api/zomato/";
 
   constructor(private http: HttpClient) { }
 
