@@ -6,6 +6,10 @@ import { RestaurantFoodItemComponent } from './components/restaurant-food-item/r
 
 const routes: Routes = [
   {
+    path : '',
+    component:FoodsComponent
+  },
+  {
     path:'foods',
     component:FoodsComponent
   },
